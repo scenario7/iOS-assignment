@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521896332C3C7BB5009649A5 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 521896322C3C7BB5009649A5 /* response.json */; };
+		521896352C3C9295009649A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521896342C3C9295009649A5 /* HomeView.swift */; };
+		521896372C3C947C009649A5 /* SubtitleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521896362C3C947C009649A5 /* SubtitleManager.swift */; };
+		521896392C3C95EC009649A5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521896382C3C95EC009649A5 /* MainView.swift */; };
+		5218963B2C3C99A8009649A5 /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218963A2C3C99A8009649A5 /* TranscriptView.swift */; };
 		52C8008E2C39535100053706 /* iOS_Dev_Internship_AssigmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8008D2C39535100053706 /* iOS_Dev_Internship_AssigmentApp.swift */; };
 		52C800902C39535100053706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8008F2C39535100053706 /* ContentView.swift */; };
 		52C800922C39535400053706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C800912C39535400053706 /* Assets.xcassets */; };
@@ -14,6 +19,8 @@
 		52C8009F2C39535400053706 /* iOS_Dev_Internship_AssigmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8009E2C39535400053706 /* iOS_Dev_Internship_AssigmentTests.swift */; };
 		52C800A92C39535400053706 /* iOS_Dev_Internship_AssigmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C800A82C39535400053706 /* iOS_Dev_Internship_AssigmentUITests.swift */; };
 		52C800AB2C39535400053706 /* iOS_Dev_Internship_AssigmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C800AA2C39535400053706 /* iOS_Dev_Internship_AssigmentUITestsLaunchTests.swift */; };
+		52C800B82C39550B00053706 /* test.mov in Resources */ = {isa = PBXBuildFile; fileRef = 52C800B72C39550B00053706 /* test.mov */; };
+		52C800BC2C39569C00053706 /* SubtitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C800BB2C39569C00053706 /* SubtitleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		521896322C3C7BB5009649A5 /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
+		521896342C3C9295009649A5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		521896362C3C947C009649A5 /* SubtitleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleManager.swift; sourceTree = "<group>"; };
+		521896382C3C95EC009649A5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5218963A2C3C99A8009649A5 /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		527779312C3D389A00EF54DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52C8008A2C39535100053706 /* iOS Dev Internship Assigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Dev Internship Assigment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C8008D2C39535100053706 /* iOS_Dev_Internship_AssigmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Dev_Internship_AssigmentApp.swift; sourceTree = "<group>"; };
 		52C8008F2C39535100053706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,8 @@
 		52C800A42C39535400053706 /* iOS Dev Internship AssigmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Dev Internship AssigmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C800A82C39535400053706 /* iOS_Dev_Internship_AssigmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Dev_Internship_AssigmentUITests.swift; sourceTree = "<group>"; };
 		52C800AA2C39535400053706 /* iOS_Dev_Internship_AssigmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Dev_Internship_AssigmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52C800B72C39550B00053706 /* test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.mov; sourceTree = "<group>"; };
+		52C800BB2C39569C00053706 /* SubtitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +86,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5277792E2C3D346400EF54DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52C800BB2C39569C00053706 /* SubtitleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5277792F2C3D346C00EF54DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5218963A2C3C99A8009649A5 /* TranscriptView.swift */,
+				521896382C3C95EC009649A5 /* MainView.swift */,
+				521896342C3C9295009649A5 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		527779302C3D347000EF54DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				521896362C3C947C009649A5 /* SubtitleManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		52C800812C39535100053706 = {
 			isa = PBXGroup;
 			children = (
+				527779312C3D389A00EF54DD /* README.md */,
 				52C8008C2C39535100053706 /* iOS Dev Internship Assigment */,
 				52C8009D2C39535400053706 /* iOS Dev Internship AssigmentTests */,
 				52C800A72C39535400053706 /* iOS Dev Internship AssigmentUITests */,
@@ -94,9 +136,14 @@
 		52C8008C2C39535100053706 /* iOS Dev Internship Assigment */ = {
 			isa = PBXGroup;
 			children = (
-				52C8008D2C39535100053706 /* iOS_Dev_Internship_AssigmentApp.swift */,
 				52C8008F2C39535100053706 /* ContentView.swift */,
+				527779302C3D347000EF54DD /* Controller */,
+				5277792F2C3D346C00EF54DD /* View */,
+				5277792E2C3D346400EF54DD /* Model */,
+				52C8008D2C39535100053706 /* iOS_Dev_Internship_AssigmentApp.swift */,
+				521896322C3C7BB5009649A5 /* response.json */,
 				52C800912C39535400053706 /* Assets.xcassets */,
+				52C800B72C39550B00053706 /* test.mov */,
 				52C800932C39535400053706 /* Preview Content */,
 			);
 			path = "iOS Dev Internship Assigment";
@@ -231,8 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521896332C3C7BB5009649A5 /* response.json in Resources */,
 				52C800952C39535400053706 /* Preview Assets.xcassets in Resources */,
 				52C800922C39535400053706 /* Assets.xcassets in Resources */,
+				52C800B82C39550B00053706 /* test.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C800902C39535100053706 /* ContentView.swift in Sources */,
+				521896392C3C95EC009649A5 /* MainView.swift in Sources */,
+				5218963B2C3C99A8009649A5 /* TranscriptView.swift in Sources */,
 				52C8008E2C39535100053706 /* iOS_Dev_Internship_AssigmentApp.swift in Sources */,
+				521896352C3C9295009649A5 /* HomeView.swift in Sources */,
+				52C800BC2C39569C00053706 /* SubtitleModel.swift in Sources */,
+				521896372C3C947C009649A5 /* SubtitleManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
