@@ -30,8 +30,9 @@ struct MainView: View {
                     if (subtitles) {
                         Text(currentWord)
                             .foregroundStyle(.yellow)
-                            .font(.system(size: 40, weight: .semibold, design: .serif))
+                            .font(.system(size: 20, weight: .semibold, design: .serif))
                             .padding(40)
+                            .multilineTextAlignment(.center)
                     }
                 }
                 HStack{
@@ -78,21 +79,21 @@ struct MainView: View {
     }
     
     func startSubtitleTracking() {
-        player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.1, preferredTimescale: 600), queue: .main) { time in
+        player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 1.5, preferredTimescale: 600), queue: .main) { time in
             let currentTime = CMTimeGetSeconds(time)
-            updateSubtitle(for: currentTime)
+            updateSubtitle(for: (currentTime + 0.5)) // I added an offset because the words were lagging
         }
     }
     
     func updateSubtitle(for time: Double) {
         var possibleWords: [Word] = []
         for subtitle in subtitleManager.alternatives[0].words {
-            if subtitle.start <= time && subtitle.end >= time {
+            if (subtitle.start - 0.75) <= time && (subtitle.end + 0.75) >= time { // updated this to show 1.5 seconds worth of subtitles
                 possibleWords.append(subtitle)
             }
         }
         if !possibleWords.isEmpty {
-            currentWord = possibleWords[0].word
+            currentWord = possibleWords.map { $0.word }.joined(separator: " ")
         } else {
             currentWord = ""
         }
